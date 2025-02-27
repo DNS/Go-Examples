@@ -10,6 +10,15 @@ var d, e int
 var f, g int = 1, 2
 var h, i = 1, "Hello, world!"
 var j float64 = 0.12345
+var (
+  o int
+  p = 20
+  q int = 30
+  r, s = 40, "Hello"
+  t, u string
+)
+
+
 const k int64 = 123456789
 const l, m = 1, 2
 const (
@@ -17,6 +26,7 @@ const (
 	Z2 = "abc"
 	Z3
 )
+
 
 func main () {
 	var msg = "Hello, world!"
